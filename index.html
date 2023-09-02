@@ -12,6 +12,7 @@
   <li><a href="news.asp">PAGE2</a></li>
   <li><a href="contact.asp">PAGE3</a></li>
   <li><a href="about.asp">PAGE4</a></li>
+  </ul>
  </nav>
        
 </div>
@@ -53,9 +54,40 @@
          background-size:cover;}
 
     .navs{
-      background: DarkRed; font-family: Monospace; padding-right: 15px; padding-left: 15px;
-      display: flex; align-items: center; justify-content: space-between;  
-      
+     
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600; /* Change color on hover */
+}
+    
     }
    
   </style>
